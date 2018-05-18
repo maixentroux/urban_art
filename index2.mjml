@@ -9,20 +9,32 @@
     </mj-attributes>
     
     <mj-font name="Noto Sans" href="https://fonts.googleapis.com/css?family=Noto+Sans:400,400i,700,700i"> </mj-font>
-    <mj-font name="Rubik"  href="https://fonts.googleapis.com/css?family=Rubik"> </mj-font>
+    <mj-font name="Rubik"  href="https://fonts.googleapis.com/css?family=Rubik:300,300i,400,400i,500,500i,700,700i,900,900i"> </mj-font>
    
     <mj-style>
       
+      @import url('https://fonts.googleapis.com/css?family=Rubik:300,300i,400,400i,500,500i,700,700i,900,900i');
+      
+      @import url('https://fonts.googleapis.com/css?family=Noto+Sans:400,400i,700,700i');
+      
+      @import url('https://fonts.googleapis.com/css?family=Rationale');
+      
+      @import url('https://fonts.googleapis.com/css?family=Allerta+Stencil');
+      
+      
       h1 {
-      font-size: 24px;
+      font-size: 32px;
+      font-family: "Rationale", Arial, sans-serif;
+   
       }
       
       h2 {
       font-size: 20px;
       }
       
-      h1, h2, h3 {
+      h2, h3 {
       font-family: "Rubik", Arial, sans-serif;
+      font-weight: bold;
       }
       
       h4 {
@@ -120,7 +132,7 @@
         <mj-section padding="0" padding-bottom="10px">
 
         <mj-column>
-          <mj-image src="http://res.cloudinary.com/ducdzjqsh/image/upload/v1526376785/gif-uapb-1.gif" width="150px">
+          <mj-image src="http://res.cloudinary.com/ducdzjqsh/image/upload/v1526647952/logo.jpg" width="150px">
             
           </mj-image>
         </mj-column>
@@ -131,9 +143,9 @@
         <mj-section background-url="http://res.cloudinary.com/ducdzjqsh/image/upload/v1526375569/30226918_1840716222629681_6196018987709497344_o.jpg" padding-top="180px" padding-bottom="39px" padding-left="0" padding-right="0" background-repeat="no-repeat" background-size="cover">
 
         <mj-column  width='100%' background-color=rgba(255,255,255,0.9) padding="0">
-          <mj-text padding="0">
-            <p class="band"> Plus que 4 jours pour voir l’expo </p>
-            <h1 class="fornever">FORNEVER DE D*FACE</h1>
+          <mj-text padding="0" line-height="15px">
+            <p class="band">Hello *|NAME|*!, plus que 4 jours pour voir l’expo </p>
+            <h1 class="fornever">FORNEVER DE D*FACE !</h1>
           </mj-text>
         </mj-column>
 
@@ -204,7 +216,7 @@
    </mj-section>       
             
     <mj-section padding="0">
-      <mj-column padding="0px 0px 50px 0px">
+      <mj-column padding="0px 0px 70px 0px">
         <mj-image padding-bottom="30px" src="http://res.cloudinary.com/ducdzjqsh/image/upload/v1526560093/HUILE_square.jpg">
         </mj-image>
         <mj-text padding="0">
@@ -252,12 +264,12 @@ Une oeuvre de l’artiste PANTÓNIO.</p>
       </mj-column>
       
     </mj-section>
-        
-        
-   <!-- Footer -->
-        
+               
     
-    <mj-divider border-color="white" border-width="20px"/>
+    <mj-divider border-color="white" border-width="30px"/>
+        
+        
+    <!-- Footer -->
         
     <mj-section background-url="http://res.cloudinary.com/ducdzjqsh/image/upload/v1526387560/Fichier_1-8.png" padding="40px 0 40px 0" background-repeat="no-repeat" background-size="cover">
 
@@ -265,7 +277,7 @@ Une oeuvre de l’artiste PANTÓNIO.</p>
         
     <mj-divider border-color="white" border-width="13px"/>
         
-    <mj-section padding="0">
+    <mj-section padding="15px 0 0 0">
       <mj-column vertical-align="middle" padding="0px 0px 50px 0px">
         <mj-text padding="0" line-height="23px">
           <h3>N’oublie pas tes billets pour le
