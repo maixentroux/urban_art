@@ -147,7 +147,7 @@
 
         <mj-column  width='100%' background-color=rgba(255,255,255,0.9) padding="0">
           <mj-text padding="0" line-height="15px">
-            <p class="band">Hello *|NAME|*!, plus que 4 jours pour voir l’expo </p>
+            <p class="band">Plus que 4 jours pour voir l’expo </p>
             <h1 class="fornever">FORNEVER DE D*FACE !</h1>
           </mj-text>
         </mj-column>
