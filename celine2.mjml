@@ -69,7 +69,7 @@
       }
       
       .banner_date {
-      padding-bottom: 10px;
+      padding: 0;
       }
       
       .google {
@@ -88,7 +88,7 @@
       }
       
       .portfolio {
-      color:white;
+        color:white;
       }
       
 
@@ -128,8 +128,7 @@
         background-color: #212a34;
       }
       
-
- 
+      
     </mj-style>
 
     <mj-style>
@@ -181,7 +180,7 @@
     <mj-section padding="0" padding-top="20px" background-color="#F4F4F4">
 
         <mj-column>
-          <mj-text>
+          <mj-text padding="0 25px">
             <h4 class="banner_date">19 avril / 19 mai - PARIS 13</h4>
             <p>Pour cette première exposition personnelle en France, D*Face – figure incontournable de la scène street art mondiale – présentera une série d’oeuvres inédites dans une variété de formats : peintures sur toile, sculptures, installations, assemblages, HPM et sérigraphies. </p>
           </mj-text>
@@ -221,8 +220,8 @@
         		<h2 class="dface">D*FACE</h2>
           </div>
         </mj-text>
-        <mj-text color="white" text-align="center">
-            <p>Dean Stockton alias D*Face est un artiste, sculpteur et illustrateur londonien fasciné par les Etats-Unis. On le connaît pour les fresques monumentales qu’il a réalisées à travers le monde depuis plusieurs années.</p>
+        <mj-text color="white" text-align="center" line-height="16px" padding="15px 25px 20px 25px">
+        Dean Stockton alias D*Face est un artiste, sculpteur et illustrateur londonien fasciné par les Etats-Unis. On le connaît pour les fresques monumentales qu’il a réalisées à travers le monde depuis plusieurs années.
         </mj-text>
         <mj-text padding="20px 0 20px 0" color="white" font-weight="bold">
             <a class="portfolio" text-align="center" href="http://itinerrance.fr/focus-sur-shoof/"> > DÉCOUVRIR SON PORTFOLIO < </a>
@@ -273,7 +272,7 @@
         </mj-image>
       </mj-column>
       
-      <mj-column background-color="#212a34" vertical-align="middle" padding="10px 0 0 0">
+      <mj-column background-color="#212a34" vertical-align="middle" padding="0">
         <mj-raw>
           <div class="vudansle">
                <div class="title-container vu">
@@ -281,11 +280,11 @@
                </div>
           </div>
         </mj-raw>
-        <mj-text color="white" text-align="center">
-            <p>Nouveau sreet art dans le 13e : un grand oiseau vient de prendre son envol près du métro. 
-Une oeuvre de l’artiste PANTÓNIO.</p>
+        <mj-text color="white" text-align="center" line-height="16px" padding="25px 25px">
+        Nouveau sreet art dans le 13e : un grand oiseau vient de prendre son envol près du métro. 
+Une oeuvre de l’artiste PANTÓNIO.
         </mj-text>
-        <mj-text color="white" padding-bottom="12px" text-align="center">
+        <mj-text color="white" padding-bottom="0" text-align="center" padding="0">
             <h4>PARIS - métro chevaleret<h4>
         </mj-text>
         
