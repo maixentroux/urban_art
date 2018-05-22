@@ -10,8 +10,11 @@
     
     <mj-font name="Noto Sans" href="https://fonts.googleapis.com/css?family=Noto+Sans:400,400i,700,700i"> </mj-font>
     <mj-font name="Rubik"  href="https://fonts.googleapis.com/css?family=Rubik:300,300i,400,400i,500,500i,700,700i,900,900i"> </mj-font>
+    <mj-font name="Rationale"  href="https://fonts.googleapis.com/css?family=Rationale"> </mj-font>
    
-    <mj-style>
+    <mj-style inline="inline">
+      
+      /*-------- Fonts --------*/
       
       @import url('https://fonts.googleapis.com/css?family=Rubik:300,300i,400,400i,500,500i,700,700i,900,900i');
       
@@ -20,6 +23,8 @@
       @import url('https://fonts.googleapis.com/css?family=Rationale');
       
       
+      /*-------- Text --------*/
+
       h1 {
       font-size: 32px;
       font-family: "Rationale", Arial, sans-serif;
@@ -44,6 +49,16 @@
       font-family: "Noto Sans", Arial, sans-serif;
       }
       
+      a {
+      text-decoration: none;
+      color: black;
+      }
+      
+      
+      
+      /*-------- Header --------*/
+
+      
       .band {
       font-weight: 700;
       font-size: 16px;
@@ -57,20 +72,13 @@
       padding-bottom: 10px;
       }
       
-      a {
-      text-decoration: none;
-      color: black;
-      }
-      
       .google {
-      color: black;
-      font-size:13px;
       font-weight: bold;
       }
       
-      .google:hover {
-      color:#e04b00;
-      }
+
+      
+      /*-------- Focus artiste --------*/
       
       .dface {
       	background-color: #212a34;
@@ -80,44 +88,59 @@
       }
       
       .portfolio {
-      color: white;
+      color:white;
       }
       
-      .portfolio:hover {
-      text-decoration: underline;
-      }
-      
+
       .title-container {
       	color: white;
       	text-align: center;
-      	background-image: url("http://res.cloudinary.com/ducdzjqsh/image/upload/v1526482752/line3.svg");
+      	background-image: url("http://res.cloudinary.com/ducdzjqsh/image/upload/v1526978367/line4.png");
       	background-repeat: repeat-x;
       	background-position: center;
+        margin: 0 20px;
       }
       
+      
+      /*-------- Expos --------*/
+      
+      .expo {
+        background-color: #fff;
+        padding: 0 15px;
+        display: inline-block;
+      }
+      
+      
+      /*-------- "VU" --------*/
+      
+      
       .vu {
-      transform: rotate(-4deg);
+        transform: rotate(-4deg);
       }
       
       .vudansle, .face {
-      background-color: #212a34;
+        background-color: #212a34;
       }
       
       .expo_container {
-      text-align: center;
-      background-image: url("http://res.cloudinary.com/ducdzjqsh/image/upload/v1526560840/line1705.svg");
-      background-repeat: repeat-x;
-      background-position: center;
-      }
-      
-      .expo {
-      background-color: #fff;
-      padding: 0 15px;
-       display: inline-block;
+        text-align: center;
+        background-image: url("http://res.cloudinary.com/ducdzjqsh/image/upload/v1526560840/line1705.svg");
+        background-repeat: repeat-x;
+        background-position: center;
       }
  
     </mj-style>
 
+    <mj-style>
+    a.google:hover {
+      color: #e04b00 !important;
+     }
+      
+    .portfolio:hover {
+      text-decoration: underline !important;
+      }  
+    </mj-style>
+    
   </mj-head>
 
   <mj-body background-color="#fff" padding="0">
@@ -126,7 +149,7 @@
 
         <mj-column>
           <mj-text>
-            <a href="#">Voir en ligne</a>
+            <a href="#" color="#fff">Voir en ligne</a>
           </mj-text>
         </mj-column>
 
@@ -168,14 +191,14 @@
     <mj-section padding="5px">
 
       <mj-text>
-        <a class="google" href="https://www.google.com/calendar/event?action=TEMPLATE&text=D%2AFACE+-+%22FORNEVER%22&dates=20180419/20180521&details=L%26rsquo%3Bartiste+%0ADean+Stockton+alias+D%2AFace+est+n%C3%A9+en+1978+%C3%A0+Londres+o%C3%B9+il+vit+et+travaille+aujourd%E2%80%99hui.+Artiste%2C+sculpteur+et+illustrateur+il+a+%C3%A9galement+ouvert+sa+galerie+d%E2%80%99art+urbain+Stolenspace+Gallery+%C3%A0+Londres+en+2005.%C2%A0D%C3%A8s+l%E2%80%99adolescence+D%2AFace+se+fascine+par+les+Etats-Unis+et+l%E2%80%99American+Dream.+%0AApr%C3%A8s+avoir+fait+des+%C3%A9tudes+de+design%2C+il+se+lance+comme+illustrateur+freelance+et+d%C3%A9veloppe+en+parall%C3%A8le+son+activit%C3%A9+dans+la+rue.+Son+travail+puise+dans+les+comics+am%C3%A9ricains.+Son+style+est+reconnaissable+par+l%E2%80%99utilisation+d%E2%80%99une+imagerie+pop+art%2C+rappelant+Roy+Lichtenstein+ou+m%C3%AAme+Andy+Warhol%2C+qui+comporte+des+images+d%E2%80%99ic%C3%B4nes+comme+Marylin+Monroe+ou+la+Reine+d%E2%80%99Angleterre.+Ses+oeuvres+traitent+de+l%E2%80%99obsession+de+la+soci%C3%A9t%C3%A9+pour+les+c%C3%A9l%C3%A9brit%C3%A9s+et+la+surconsommation+de+mani%C3%A8re+sombre+et+satirique.+L%E2%80%99objectif+de+son+travail+est+%C2%AB%C2%A0d%E2%80%99encourager+les+gens+%C3%A0+ne+pas+seulement+voir%2C+mais+aussi+%C3%A0+regarder+ce+qui+les+entoure%2C+repenser+les+st%C3%A9r%C3%A9otype%28Voir+toute+la+description+de+%C3%89v%C3%A8nement+ici%C2%A0%3A+http%3A%2F%2Furbanart-paris.fr%2Fagenda%2Fdface-fornever%2F%29&location&trp=false&sprop=website:http://urbanart-paris.fr&ctz=Europe%2FParis">+ Google agenda</a> 
+        <a class="google"  font-size="13px" font-weight="bold" color="#000" href="https://www.google.com/calendar/event?action=TEMPLATE&text=D%2AFACE+-+%22FORNEVER%22&dates=20180419/20180521&details=L%26rsquo%3Bartiste+%0ADean+Stockton+alias+D%2AFace+est+n%C3%A9+en+1978+%C3%A0+Londres+o%C3%B9+il+vit+et+travaille+aujourd%E2%80%99hui.+Artiste%2C+sculpteur+et+illustrateur+il+a+%C3%A9galement+ouvert+sa+galerie+d%E2%80%99art+urbain+Stolenspace+Gallery+%C3%A0+Londres+en+2005.%C2%A0D%C3%A8s+l%E2%80%99adolescence+D%2AFace+se+fascine+par+les+Etats-Unis+et+l%E2%80%99American+Dream.+%0AApr%C3%A8s+avoir+fait+des+%C3%A9tudes+de+design%2C+il+se+lance+comme+illustrateur+freelance+et+d%C3%A9veloppe+en+parall%C3%A8le+son+activit%C3%A9+dans+la+rue.+Son+travail+puise+dans+les+comics+am%C3%A9ricains.+Son+style+est+reconnaissable+par+l%E2%80%99utilisation+d%E2%80%99une+imagerie+pop+art%2C+rappelant+Roy+Lichtenstein+ou+m%C3%AAme+Andy+Warhol%2C+qui+comporte+des+images+d%E2%80%99ic%C3%B4nes+comme+Marylin+Monroe+ou+la+Reine+d%E2%80%99Angleterre.+Ses+oeuvres+traitent+de+l%E2%80%99obsession+de+la+soci%C3%A9t%C3%A9+pour+les+c%C3%A9l%C3%A9brit%C3%A9s+et+la+surconsommation+de+mani%C3%A8re+sombre+et+satirique.+L%E2%80%99objectif+de+son+travail+est+%C2%AB%C2%A0d%E2%80%99encourager+les+gens+%C3%A0+ne+pas+seulement+voir%2C+mais+aussi+%C3%A0+regarder+ce+qui+les+entoure%2C+repenser+les+st%C3%A9r%C3%A9otype%28Voir+toute+la+description+de+%C3%89v%C3%A8nement+ici%C2%A0%3A+http%3A%2F%2Furbanart-paris.fr%2Fagenda%2Fdface-fornever%2F%29&location&trp=false&sprop=website:http://urbanart-paris.fr&ctz=Europe%2FParis">+ Google agenda</a> 
       </mj-text>
 
     </mj-section>
     
     <mj-section padding="0 0 50px 0">
       <mj-column padding="0">
-        <mj-button width="150px" background-color="#000" border-radius="15PX" href="http://urbanart-paris.fr/agenda/dface-fornever/" font-size="12" font-weight="bold">VOIR PLUS</mj-button> 
+        <mj-button width="150px" background-color="#000" color="white" border-radius="40px" href="http://urbanart-paris.fr/agenda/dface-fornever/" font-size="12px" font-weight="bold">VOIR PLUS</mj-button> 
       </mj-column>
    </mj-section>
     
@@ -196,11 +219,11 @@
         		<h2 class="dface">D*FACE</h2>
           </div>
         </mj-raw>
-        <mj-text color="white">
+        <mj-text color="white" text-align="center">
             <p>Dean Stockton alias D*Face est un artiste, sculpteur et illustrateur londonien fasciné par les Etats-Unis. On le connaît pour les fresques monumentales qu’il a réalisées à travers le monde depuis plusieurs années.</p>
         </mj-text>
         <mj-text padding="20px 0 20px 0" color="white" font-weight="bold">
-            <a class="portfolio" href="http://itinerrance.fr/focus-sur-shoof/"> > DÉCOUVRIR SON PORTFOLIO < </a>
+            <a class="portfolio" text-align="center" href="http://itinerrance.fr/focus-sur-shoof/"> > DÉCOUVRIR SON PORTFOLIO < </a>
         </mj-text>
         
       </mj-column>   
@@ -226,7 +249,7 @@
           <h3>JONONE – « IN THE BOX »</h3>
           <h4>14 avril / 27 mai - PARIS 3</h4>
         </mj-text>
-        <mj-button width="150px" align="center" background-color="#000" border-radius="40px" padding="0" href="http://urbanart-paris.fr/agenda/jonone-in-the-box/" font-size="12" font-weight="bold">VOIR PLUS</mj-button> 
+        <mj-button width="150px" align="center" background-color="#000" color="white" border-radius="40px" padding="0" href="http://urbanart-paris.fr/agenda/jonone-in-the-box/" font-size="12px" font-weight="bold">VOIR PLUS</mj-button> 
       </mj-column>
       <mj-column padding="0px 0px 50px 0px">
         <mj-image padding-bottom="30px" src="http://res.cloudinary.com/ducdzjqsh/image/upload/v1526560093/PICT2.jpg">
@@ -235,7 +258,7 @@
           <h3>QUENTIN DMR – « ENTER/EXIT »</h3>
           <h4>27 avril / 18 mai - PARIS 11</h4>
         </mj-text>
-        <mj-button width="150px" align="center" background-color="#000" border-radius="40px" padding="0" href="http://urbanart-paris.fr/agenda/quentin-dmr-enter-exit/" font-size="12" font-weight="bold">VOIR PLUS</mj-button> 
+        <mj-button width="150px" align="center" background-color="#000" color="white" border-radius="40px" padding="0" href="http://urbanart-paris.fr/agenda/quentin-dmr-enter-exit/" font-size="12px" font-weight="bold">VOIR PLUS</mj-button> 
       </mj-column>
     </mj-section>
 
@@ -244,7 +267,7 @@
     <mj-section padding="0" background-color="#212a34">
       
       <mj-column vertical-align="middle">
-        <mj-image src="http://res.cloudinary.com/ducdzjqsh/image/upload/v1526637738/pantoniocut.jpg" padding="0">
+        <mj-image src="http://res.cloudinary.com/ducdzjqsh/image/upload/v1526978979/pantonio_graph.jpg" padding="0">
         </mj-image>
       </mj-column>
       
@@ -256,11 +279,11 @@
                </div>
           </div>
         </mj-raw>
-        <mj-text color="white">
+        <mj-text color="white" text-align="center">
             <p>Nouveau sreet art dans le 13e : un grand oiseau vient de prendre son envol près du métro. 
 Une oeuvre de l’artiste PANTÓNIO.</p>
         </mj-text>
-        <mj-text color="white" padding-bottom="12px">
+        <mj-text color="white" padding-bottom="12px" text-align="center">
             <h4>PARIS - métro chevaleret<h4>
         </mj-text>
         
@@ -307,23 +330,23 @@ FESTIVAL LABEL VALETTE !</h3>
         <mj-column padding="0">
         </mj-column>
         <mj-column>
-          <mj-image src="http://res.cloudinary.com/ducdzjqsh/image/upload/v1526552885/FACEBOOK.svg" width="45px" padding="0px 5px 20px 5px" href="https://www.facebook.com/urbanartparis/">
+          <mj-image src="http://res.cloudinary.com/ducdzjqsh/image/upload/v1526979577/FACEBOOK.png" width="45px" padding="0px 5px 20px 5px" href="https://www.facebook.com/urbanartparis/">
           </mj-image>
         </mj-column>
         <mj-column>
-          <mj-image src="http://res.cloudinary.com/ducdzjqsh/image/upload/v1526552885/YT.svg" width="45px" padding="0px 5px 20px 5px" href="https://www.youtube.com/channel/UCIuEgyaf-azGycK9Ec_ubWQ">
+          <mj-image src="http://res.cloudinary.com/ducdzjqsh/image/upload/v1526979536/YT.png" width="45px" padding="0px 5px 20px 5px" href="https://www.youtube.com/channel/UCIuEgyaf-azGycK9Ec_ubWQ">
           </mj-image>
         </mj-column>
         <mj-column>
-          <mj-image src="http://res.cloudinary.com/ducdzjqsh/image/upload/v1526552885/INSTA.svg" width="45px" padding="0px 5px 20px 5px" href="https://www.instagram.com/urbanartparis/">
+          <mj-image src="http://res.cloudinary.com/ducdzjqsh/image/upload/v1526979536/INSTA.png" width="45px" padding="0px 5px 20px 5px" href="https://www.instagram.com/urbanartparis/">
           </mj-image>
         </mj-column>
         <mj-column>
-          <mj-image src="http://res.cloudinary.com/ducdzjqsh/image/upload/v1526552885/IN.svg" width="45px" padding="0px 5px 20px 5px" href="https://www.linkedin.com/company/10169057/">
+          <mj-image src="http://res.cloudinary.com/ducdzjqsh/image/upload/v1526979577/IN.png" width="45px" padding="0px 5px 20px 5px" href="https://www.linkedin.com/company/10169057/">
           </mj-image>
         </mj-column>
         <mj-column>
-          <mj-image src="http://res.cloudinary.com/ducdzjqsh/image/upload/v1526559641/twitter.svg" width="45px" padding="0px 5px 20px 5px">
+          <mj-image src="http://res.cloudinary.com/ducdzjqsh/image/upload/v1526979537/twitter.png" width="45px" padding="0px 5px 20px 5px" href="https://twitter.com/UrbanArtParis">
           </mj-image>
         </mj-column>
         <mj-column padding="0">
