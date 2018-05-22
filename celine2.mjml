@@ -110,6 +110,12 @@
         display: inline-block;
       }
       
+      .expo_container {
+        text-align: center;
+        background-image: url("http://res.cloudinary.com/ducdzjqsh/image/upload/v1526991554/line_expo1.png");
+        background-repeat: repeat-x;
+        background-position: center;
+      }
       
       /*-------- "VU" --------*/
       
@@ -122,12 +128,7 @@
         background-color: #212a34;
       }
       
-      .expo_container {
-        text-align: center;
-        background-image: url("http://res.cloudinary.com/ducdzjqsh/image/upload/v1526560840/line1705.svg");
-        background-repeat: repeat-x;
-        background-position: center;
-      }
+
  
     </mj-style>
 
@@ -177,7 +178,7 @@
 
     </mj-section>
     
-    <mj-section padding="0" padding-top="20px" background-color="#fffefa">
+    <mj-section padding="0" padding-top="20px" background-color="#F4F4F4">
 
         <mj-column>
           <mj-text>
@@ -188,7 +189,7 @@
 
     </mj-section>
     
-    <mj-section padding="5px"background-color="#fffefa">
+    <mj-section padding="5px" background-color="#F4F4F4">
 
       <mj-text>
         <a class="google"  font-size="13px" font-weight="bold" color="#000" href="https://www.google.com/calendar/event?action=TEMPLATE&text=D%2AFACE+-+%22FORNEVER%22&dates=20180419/20180521&details=L%26rsquo%3Bartiste+%0ADean+Stockton+alias+D%2AFace+est+n%C3%A9+en+1978+%C3%A0+Londres+o%C3%B9+il+vit+et+travaille+aujourd%E2%80%99hui.+Artiste%2C+sculpteur+et+illustrateur+il+a+%C3%A9galement+ouvert+sa+galerie+d%E2%80%99art+urbain+Stolenspace+Gallery+%C3%A0+Londres+en+2005.%C2%A0D%C3%A8s+l%E2%80%99adolescence+D%2AFace+se+fascine+par+les+Etats-Unis+et+l%E2%80%99American+Dream.+%0AApr%C3%A8s+avoir+fait+des+%C3%A9tudes+de+design%2C+il+se+lance+comme+illustrateur+freelance+et+d%C3%A9veloppe+en+parall%C3%A8le+son+activit%C3%A9+dans+la+rue.+Son+travail+puise+dans+les+comics+am%C3%A9ricains.+Son+style+est+reconnaissable+par+l%E2%80%99utilisation+d%E2%80%99une+imagerie+pop+art%2C+rappelant+Roy+Lichtenstein+ou+m%C3%AAme+Andy+Warhol%2C+qui+comporte+des+images+d%E2%80%99ic%C3%B4nes+comme+Marylin+Monroe+ou+la+Reine+d%E2%80%99Angleterre.+Ses+oeuvres+traitent+de+l%E2%80%99obsession+de+la+soci%C3%A9t%C3%A9+pour+les+c%C3%A9l%C3%A9brit%C3%A9s+et+la+surconsommation+de+mani%C3%A8re+sombre+et+satirique.+L%E2%80%99objectif+de+son+travail+est+%C2%AB%C2%A0d%E2%80%99encourager+les+gens+%C3%A0+ne+pas+seulement+voir%2C+mais+aussi+%C3%A0+regarder+ce+qui+les+entoure%2C+repenser+les+st%C3%A9r%C3%A9otype%28Voir+toute+la+description+de+%C3%89v%C3%A8nement+ici%C2%A0%3A+http%3A%2F%2Furbanart-paris.fr%2Fagenda%2Fdface-fornever%2F%29&location&trp=false&sprop=website:http://urbanart-paris.fr&ctz=Europe%2FParis">+ Google agenda</a> 
@@ -196,32 +197,30 @@
 
     </mj-section>
     
-    <mj-section padding="0 0 20px 0" background-color="#fffefa">
+    <mj-section padding="0 0 20px 0" background-color="#F4F4F4">
       <mj-column padding="0">
         <mj-button width="150px" background-color="#000" color="white" border-radius="40px" href="http://urbanart-paris.fr/agenda/dface-fornever/" font-size="12px" font-weight="bold">VOIR PLUS</mj-button> 
       </mj-column>
    </mj-section>
-    
-    <mj-section>
-    </mj-section>
-    
+   
+    <mj-section></mj-section>
     
     <!-- focus artiste -->
     
     
     <mj-section padding="0" background-color="#212a34">
-      
-      <mj-column vertical-align="middle">
+
+      <mj-column width="50%" vertical-align="middle">
         <mj-image src="http://res.cloudinary.com/ducdzjqsh/image/upload/v1526378538/Portrait-Dface2-AO-http-_www.timhans.com_-copie.jpg" padding="0">
         </mj-image>
       </mj-column>
       
-      <mj-column background-color="#212a34" vertical-align="middle" padding="0">
-        <mj-raw>
+      <mj-column width="50%" background-color="#212a34" vertical-align="middle" padding="0">
+        <mj-text>
           <div class="title-container face">
         		<h2 class="dface">D*FACE</h2>
           </div>
-        </mj-raw>
+        </mj-text>
         <mj-text color="white" text-align="center">
             <p>Dean Stockton alias D*Face est un artiste, sculpteur et illustrateur londonien fasciné par les Etats-Unis. On le connaît pour les fresques monumentales qu’il a réalisées à travers le monde depuis plusieurs années.</p>
         </mj-text>
