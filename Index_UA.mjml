@@ -72,7 +72,7 @@
       }
       
       .banner_date {
-        padding: 0;
+        margin: 0 0 20px 0;
       }
       
       .google {
@@ -82,15 +82,17 @@
       
       /*-------- Artist section --------*/
       
-      .dface {
+      .block-title {
       	background-color: #212a34;
       	padding: 0 15px;
         display: inline-block;
         text-align: center;
+        margin: 30px 0;
       }
       
-      .portfolio {
+      .block_link {
         color:white;
+        margin: 0;
       }
       
 
@@ -101,6 +103,12 @@
       	background-repeat: repeat-x;
       	background-position: center;
         margin: 0 20px;
+      }
+      
+      .artist-container{
+        min-height: 300px;
+        height: 100px;
+        background: url("http://res.cloudinary.com/ducdzjqsh/image/upload/v1526378538/Portrait-Dface2-AO-http-_www.timhans.com_-copie.jpg") center/cover no-repeat;
       }
       
       
@@ -130,6 +138,12 @@
         background-color: #212a34;
       }
       
+      .graph-container{
+        min-height: 250px;
+        height: 100%;
+        background: url("http://res.cloudinary.com/ducdzjqsh/image/upload/v1526978979/pantonio_graph.jpg") center/cover no-repeat;
+      }
+      
       /*-------- "Footer" --------*/
       
       .hidden {
@@ -146,7 +160,7 @@
       color: #e04b00 !important;
      }
       
-    .portfolio:hover {
+    .block_link:hover {
       text-decoration: underline !important;
       }  
     </mj-style>
@@ -199,7 +213,7 @@
     <mj-section padding="0" background-color="#efeeed">
 
         <mj-column>
-          <mj-text padding="10px 25px 0 25px">
+          <mj-text padding="25px 25px 0 25px">
             <h4 class="banner_date">19 avril / 19 mai - PARIS 13</h4>
             <p>Pour cette première exposition personnelle en France, D*Face – figure incontournable de la scène street art mondiale – présentera une série d’oeuvres inédites dans une variété de formats : peintures sur toile, sculptures, installations, assemblages, HPM et sérigraphies. </p>
           </mj-text>
@@ -229,21 +243,23 @@
     <mj-section padding="0" background-color="#212a34">
 
       <mj-column width="50%" vertical-align="middle" padding="0">
-        <mj-image src="http://res.cloudinary.com/ducdzjqsh/image/upload/v1526378538/Portrait-Dface2-AO-http-_www.timhans.com_-copie.jpg" padding="0" href="http://itinerrance.fr/focus-sur-shoof/">
-        </mj-image>
+        <mj-text padding="0">
+          <div class="artist-container">
+          </div>
+        </mj-text>
       </mj-column>
       
       <mj-column width="50%" background-color="#212a34" vertical-align="middle" padding="0">
         <mj-text>
           <div class="title-container face">
-        		<h2 class="dface">D*FACE</h2>
+        		<h2 class="block-title">D*FACE</h2>
           </div>
         </mj-text>
-        <mj-text color="white" text-align="center" line-height="16px" padding="15px 25px 20px 25px">
+        <mj-text color="white" text-align="center" line-height="16px" padding="0 20px">
         Dean Stockton alias D*Face est un artiste, sculpteur et illustrateur londonien fasciné par les Etats-Unis. On le connaît pour les fresques monumentales qu’il a réalisées à travers le monde depuis plusieurs années.
         </mj-text>
-        <mj-text padding="20px 0 20px 0" color="white" font-weight="bold">
-            <a class="portfolio" text-align="center" href="http://itinerrance.fr/focus-sur-shoof/"> > DÉCOUVRIR SON PORTFOLIO < </a>
+        <mj-text padding="40px 0" color="white" font-weight="bold">
+            <a class="block_link portfolio" text-align="center" href="http://itinerrance.fr/focus-sur-shoof/"> > DÉCOUVRIR SON PORTFOLIO &lt; </a>
         </mj-text>
         
       </mj-column>   
@@ -290,24 +306,26 @@
     <mj-section padding="0" background-color="#212a34">
       
       <mj-column vertical-align="middle" padding="0">
-        <mj-image src="http://res.cloudinary.com/ducdzjqsh/image/upload/v1526978979/pantonio_graph.jpg" padding="0" href="https://goo.gl/maps/YWj3wGJMJ1K2">
-        </mj-image>
+        <mj-text padding="0">
+          <div class="graph-container">
+          </div>
+        </mj-text>
       </mj-column>
       
       <mj-column background-color="#212a34" vertical-align="middle" padding="0">
         <mj-raw>
           <div class="vudansle">
                <div class="title-container vu">
-        		      <h2 class="dface">VU DANS LE 13e !</h2>
+        		      <h2 class="block-title">VU DANS LE 13e !</h2>
                </div>
           </div>
         </mj-raw>
-        <mj-text color="white" text-align="center" line-height="16px" padding="25px 25px">
+        <mj-text color="white" text-align="center" line-height="16px" padding="10px 20px">
         Nouveau sreet art dans le 13e : un grand oiseau vient de prendre son envol près du métro. 
 Une oeuvre de l’artiste PANTÓNIO.
         </mj-text>
-        <mj-text color="white" padding-bottom="0" text-align="center" padding="0">
-            <h4>PARIS - métro chevaleret<h4>
+        <mj-text padding="30px 0" color="white" text-align="center" color="white" font-size="14px" font-weight="bold">
+            <a class="block_link metro" href="https://goo.gl/maps/YWj3wGJMJ1K2">PARIS - métro chevaleret</a>
         </mj-text>
         
       </mj-column>
