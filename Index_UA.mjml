@@ -107,7 +107,7 @@
       
       .artist-container{
         min-height: 300px;
-        height: 100px;
+        height: 100%;
         background: url("http://res.cloudinary.com/ducdzjqsh/image/upload/v1526378538/Portrait-Dface2-AO-http-_www.timhans.com_-copie.jpg") center/cover no-repeat;
       }
       
