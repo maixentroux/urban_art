@@ -11,6 +11,10 @@
     <mj-font name="Noto Sans" href="https://fonts.googleapis.com/css?family=Noto+Sans:400,400i,700,700i"> </mj-font>
     <mj-font name="Rubik"  href="https://fonts.googleapis.com/css?family=Rubik:300,300i,400,400i,500,500i,700,700i,900,900i"> </mj-font>
     <mj-font name="Rationale"  href="https://fonts.googleapis.com/css?family=Rationale"> </mj-font>
+    
+    
+    
+    <!-- Inline Style -->
    
     <mj-style inline="inline">
       
@@ -55,8 +59,7 @@
       }
       
       
-      
-      /*-------- Header --------*/
+      /*-------- Main section --------*/
 
       
       .band {
@@ -76,9 +79,8 @@
       font-weight: bold;
       }
       
-
       
-      /*-------- Focus artiste --------*/
+      /*-------- Artist section --------*/
       
       .dface {
       	background-color: #212a34;
@@ -102,7 +104,7 @@
       }
       
       
-      /*-------- Expos --------*/
+      /*-------- Expo section --------*/
       
       .expo {
         background-color: #fff;
@@ -117,7 +119,7 @@
         background-position: center;
       }
       
-      /*-------- "VU" --------*/
+      /*-------- "VU" section --------*/
       
       
       .vu {
@@ -134,8 +136,10 @@
         color: rgba(255,255,255,0);
       }
       
-      
     </mj-style>
+    
+    
+    <!-- Hover non diponible en ligne -->
 
     <mj-style>
     a.google:hover {
@@ -148,14 +152,21 @@
     </mj-style>
     
   </mj-head>
+  
+  
+  
+  <!-------------------- Body -------------------->
 
   <mj-body background-color="#fff" padding="0">
+    
+  
+  <!--- Header --->
     
     <mj-section padding="0">
 
         <mj-column>
           <mj-text>
-            <a href="#" color="#fff">Voir en ligne</a>
+            <a href="*|ARCHIVE|*" color="#fff">Voir en ligne</a>
           </mj-text>
         </mj-column>
 
@@ -171,7 +182,8 @@
           
     </mj-section>
     
-    <!-- Section principale -->
+    
+    <!-- Main section -->
     
         <mj-section background-url="http://res.cloudinary.com/ducdzjqsh/image/upload/v1526375569/30226918_1840716222629681_6196018987709497344_o.jpg" padding-top="180px" padding-bottom="39px" padding-left="0" padding-right="0" background-repeat="no-repeat" background-size="cover">
 
@@ -211,8 +223,8 @@
    
     <mj-section></mj-section>
     
-    <!-- Focus artiste -->
     
+    <!-- Artist section -->
     
     <mj-section padding="0" background-color="#212a34">
 
@@ -237,7 +249,8 @@
       </mj-column>   
     </mj-section>
       
-   <!-- expos -->
+      
+   <!-- Expo section -->
       
     <mj-section padding="50px 0px 40px 0px">
         <mj-column>
@@ -269,8 +282,10 @@
         <mj-button width="150px" align="center" background-color="#000" color="white" border-radius="40px" padding="0" href="http://urbanart-paris.fr/agenda/quentin-dmr-enter-exit/" font-size="12px" font-weight="bold">VOIR PLUS</mj-button> 
       </mj-column>
     </mj-section>
+        
+        
 
-    <!-- Section "VU" -->
+    <!-- "VU" section -->
       
     <mj-section padding="0" background-color="#212a34">
       
@@ -304,16 +319,19 @@ Une oeuvre de l’artiste PANTÓNIO.
     </mj-section>
         
         
-    <!-- Footer -->
+    <!------------------ Footer ------------------>
+        
+        <!-- Logo -->
         
     <mj-section background-url="http://res.cloudinary.com/ducdzjqsh/image/upload/v1527070198/logo_footer.png" padding="40px 0 40px 0" background-repeat="no-repeat" background-size="cover">
       <mj-text color="rgba(255,255,255,0)">
       <a class="hidden" href="http://urbanart-paris.fr/">Urban Art Paris</a></mj-text>
-
     </mj-section>
         
     <mj-section background-color="#efeeed" padding="10px">
     </mj-section>
+        
+        <!-- Festival section -->
         
     <mj-section padding="15px 0 0 0" background-color="#efeeed">
       <mj-column vertical-align="middle" padding="0px 0px 50px 0px">
@@ -328,6 +346,8 @@ FESTIVAL LABEL VALETTE !</h3>
         </mj-image>
       </mj-column>
     </mj-section>
+        
+        <!-- Social network -->
         
     <mj-section padding="0" background-color="#212a34">
         <mj-column>
