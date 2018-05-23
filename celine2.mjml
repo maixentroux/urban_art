@@ -28,7 +28,7 @@
       h1 {
       font-size: 32px;
       font-family: "Rationale", Arial, sans-serif;
-   
+      margin: 0 0 10px 0;
       }
       
       h2 {
@@ -169,13 +169,14 @@
           </mj-image>
         </mj-column>
           
-<!-- Header -->
     </mj-section>
+    
+    <!-- Section principale -->
     
         <mj-section background-url="http://res.cloudinary.com/ducdzjqsh/image/upload/v1526375569/30226918_1840716222629681_6196018987709497344_o.jpg" padding-top="180px" padding-bottom="39px" padding-left="0" padding-right="0" background-repeat="no-repeat" background-size="cover">
 
         <mj-column  width='100%' background-color=rgba(255,255,255,0.9) padding="0">
-          <mj-text padding="0" line-height="15px">
+          <mj-text padding="0">
             <p class="band">Plus que 4 jours pour voir l’expo </p>
             <a href="http://urbanart-paris.fr/agenda/dface-fornever/"><h1 class="fornever">FORNEVER DE D*FACE !</h1></a>
           </mj-text>
@@ -215,7 +216,7 @@
     
     <mj-section padding="0" background-color="#212a34">
 
-      <mj-column width="50%" vertical-align="middle">
+      <mj-column width="50%" vertical-align="middle" padding="0">
         <mj-image src="http://res.cloudinary.com/ducdzjqsh/image/upload/v1526378538/Portrait-Dface2-AO-http-_www.timhans.com_-copie.jpg" padding="0" href="http://itinerrance.fr/focus-sur-shoof/">
         </mj-image>
       </mj-column>
@@ -253,7 +254,7 @@
         <mj-image padding-bottom="30px" src="http://res.cloudinary.com/ducdzjqsh/image/upload/v1526560093/HUILE_square.jpg" href="http://urbanart-paris.fr/agenda/jonone-in-the-box/">
         </mj-image>
         <mj-text padding="0">
-          <h3>JONONE – « IN THE BOX »</h3>
+          <h3>JONONE <br> « IN THE BOX »</h3>
           <h4>14 avril / 27 mai - PARIS 3</h4>
         </mj-text>
         <mj-button width="150px" align="center" background-color="#000" color="white" border-radius="40px" padding="0" href="http://urbanart-paris.fr/agenda/jonone-in-the-box/" font-size="12px" font-weight="bold">VOIR PLUS</mj-button> 
@@ -262,7 +263,7 @@
         <mj-image padding-bottom="30px" src="http://res.cloudinary.com/ducdzjqsh/image/upload/v1526560093/PICT2.jpg" href="http://urbanart-paris.fr/agenda/quentin-dmr-enter-exit/">
         </mj-image>
         <mj-text padding="0">
-          <h3>QUENTIN DMR – « ENTER/EXIT »</h3>
+          <h3>QUENTIN DMR <br> « ENTER/EXIT »</h3>
           <h4>27 avril / 18 mai - PARIS 11</h4>
         </mj-text>
         <mj-button width="150px" align="center" background-color="#000" color="white" border-radius="40px" padding="0" href="http://urbanart-paris.fr/agenda/quentin-dmr-enter-exit/" font-size="12px" font-weight="bold">VOIR PLUS</mj-button> 
@@ -273,7 +274,7 @@
       
     <mj-section padding="0" background-color="#212a34">
       
-      <mj-column vertical-align="middle">
+      <mj-column vertical-align="middle" padding="0">
         <mj-image src="http://res.cloudinary.com/ducdzjqsh/image/upload/v1526978979/pantonio_graph.jpg" padding="0" href="https://goo.gl/maps/YWj3wGJMJ1K2">
         </mj-image>
       </mj-column>
@@ -299,20 +300,22 @@ Une oeuvre de l’artiste PANTÓNIO.
     </mj-section>
                
     
-    <mj-divider border-color="white" border-width="30px"/>
+    <mj-section background-color="#efeeed" padding="17px 0">
+    </mj-section>
         
         
     <!-- Footer -->
         
-    <mj-section background-url="http://res.cloudinary.com/ducdzjqsh/image/upload/v1526387560/Fichier_1-8.png" padding="40px 0 40px 0" background-repeat="no-repeat" background-size="cover">
+    <mj-section background-url="http://res.cloudinary.com/ducdzjqsh/image/upload/v1527070198/logo_footer.png" padding="40px 0 40px 0" background-repeat="no-repeat" background-size="cover">
       <mj-text color="rgba(255,255,255,0)">
       <a class="hidden" href="http://urbanart-paris.fr/">Urban Art Paris</a></mj-text>
 
     </mj-section>
         
-    <mj-divider border-color="white" border-width="13px"/>
+    <mj-section background-color="#efeeed" padding="10px">
+    </mj-section>
         
-    <mj-section padding="15px 0 0 0">
+    <mj-section padding="15px 0 0 0" background-color="#efeeed">
       <mj-column vertical-align="middle" padding="0px 0px 50px 0px">
         <mj-text padding="0" line-height="23px">
           <h3>N’oublie pas tes billets pour le
