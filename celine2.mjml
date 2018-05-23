@@ -128,6 +128,12 @@
         background-color: #212a34;
       }
       
+      /*-------- "Footer" --------*/
+      
+      .hidden {
+        color: rgba(255,255,255,0);
+      }
+      
       
     </mj-style>
 
@@ -158,12 +164,12 @@
         <mj-section padding="0" padding-bottom="10px">
 
         <mj-column>
-          <mj-image src="http://res.cloudinary.com/ducdzjqsh/image/upload/v1526647952/logo.jpg" width="150px">
+          <mj-image src="http://res.cloudinary.com/ducdzjqsh/image/upload/v1526647952/logo.jpg" width="150px" href="http://urbanart-paris.fr/">
             
           </mj-image>
         </mj-column>
           
-<!-- article 1 -->
+<!-- Header -->
     </mj-section>
     
         <mj-section background-url="http://res.cloudinary.com/ducdzjqsh/image/upload/v1526375569/30226918_1840716222629681_6196018987709497344_o.jpg" padding-top="180px" padding-bottom="39px" padding-left="0" padding-right="0" background-repeat="no-repeat" background-size="cover">
@@ -171,16 +177,16 @@
         <mj-column  width='100%' background-color=rgba(255,255,255,0.9) padding="0">
           <mj-text padding="0" line-height="15px">
             <p class="band">Plus que 4 jours pour voir l’expo </p>
-            <h1 class="fornever">FORNEVER DE D*FACE !</h1>
+            <a href="http://urbanart-paris.fr/agenda/dface-fornever/"><h1 class="fornever">FORNEVER DE D*FACE !</h1></a>
           </mj-text>
         </mj-column>
 
     </mj-section>
     
-    <mj-section padding="0" padding-top="20px" background-color="#F4F4F4">
+    <mj-section padding="0" background-color="#efeeed">
 
         <mj-column>
-          <mj-text padding="0 25px">
+          <mj-text padding="10px 25px 0 25px">
             <h4 class="banner_date">19 avril / 19 mai - PARIS 13</h4>
             <p>Pour cette première exposition personnelle en France, D*Face – figure incontournable de la scène street art mondiale – présentera une série d’oeuvres inédites dans une variété de formats : peintures sur toile, sculptures, installations, assemblages, HPM et sérigraphies. </p>
           </mj-text>
@@ -188,7 +194,7 @@
 
     </mj-section>
     
-    <mj-section padding="5px" background-color="#F4F4F4">
+    <mj-section padding="5px" background-color="#efeeed">
 
       <mj-text>
         <a class="google"  font-size="13px" font-weight="bold" color="#000" href="https://www.google.com/calendar/event?action=TEMPLATE&text=D%2AFACE+-+%22FORNEVER%22&dates=20180419/20180521&details=L%26rsquo%3Bartiste+%0ADean+Stockton+alias+D%2AFace+est+n%C3%A9+en+1978+%C3%A0+Londres+o%C3%B9+il+vit+et+travaille+aujourd%E2%80%99hui.+Artiste%2C+sculpteur+et+illustrateur+il+a+%C3%A9galement+ouvert+sa+galerie+d%E2%80%99art+urbain+Stolenspace+Gallery+%C3%A0+Londres+en+2005.%C2%A0D%C3%A8s+l%E2%80%99adolescence+D%2AFace+se+fascine+par+les+Etats-Unis+et+l%E2%80%99American+Dream.+%0AApr%C3%A8s+avoir+fait+des+%C3%A9tudes+de+design%2C+il+se+lance+comme+illustrateur+freelance+et+d%C3%A9veloppe+en+parall%C3%A8le+son+activit%C3%A9+dans+la+rue.+Son+travail+puise+dans+les+comics+am%C3%A9ricains.+Son+style+est+reconnaissable+par+l%E2%80%99utilisation+d%E2%80%99une+imagerie+pop+art%2C+rappelant+Roy+Lichtenstein+ou+m%C3%AAme+Andy+Warhol%2C+qui+comporte+des+images+d%E2%80%99ic%C3%B4nes+comme+Marylin+Monroe+ou+la+Reine+d%E2%80%99Angleterre.+Ses+oeuvres+traitent+de+l%E2%80%99obsession+de+la+soci%C3%A9t%C3%A9+pour+les+c%C3%A9l%C3%A9brit%C3%A9s+et+la+surconsommation+de+mani%C3%A8re+sombre+et+satirique.+L%E2%80%99objectif+de+son+travail+est+%C2%AB%C2%A0d%E2%80%99encourager+les+gens+%C3%A0+ne+pas+seulement+voir%2C+mais+aussi+%C3%A0+regarder+ce+qui+les+entoure%2C+repenser+les+st%C3%A9r%C3%A9otype%28Voir+toute+la+description+de+%C3%89v%C3%A8nement+ici%C2%A0%3A+http%3A%2F%2Furbanart-paris.fr%2Fagenda%2Fdface-fornever%2F%29&location&trp=false&sprop=website:http://urbanart-paris.fr&ctz=Europe%2FParis">+ Google agenda</a> 
@@ -196,7 +202,7 @@
 
     </mj-section>
     
-    <mj-section padding="0 0 20px 0" background-color="#F4F4F4">
+    <mj-section padding="0 0 20px 0" background-color="#efeeed">
       <mj-column padding="0">
         <mj-button width="150px" background-color="#000" color="white" border-radius="40px" href="http://urbanart-paris.fr/agenda/dface-fornever/" font-size="12px" font-weight="bold">VOIR PLUS</mj-button> 
       </mj-column>
@@ -204,13 +210,13 @@
    
     <mj-section></mj-section>
     
-    <!-- focus artiste -->
+    <!-- Focus artiste -->
     
     
     <mj-section padding="0" background-color="#212a34">
 
       <mj-column width="50%" vertical-align="middle">
-        <mj-image src="http://res.cloudinary.com/ducdzjqsh/image/upload/v1526378538/Portrait-Dface2-AO-http-_www.timhans.com_-copie.jpg" padding="0">
+        <mj-image src="http://res.cloudinary.com/ducdzjqsh/image/upload/v1526378538/Portrait-Dface2-AO-http-_www.timhans.com_-copie.jpg" padding="0" href="http://itinerrance.fr/focus-sur-shoof/">
         </mj-image>
       </mj-column>
       
@@ -244,7 +250,7 @@
             
     <mj-section padding="0">
       <mj-column padding="0px 0px 70px 0px">
-        <mj-image padding-bottom="30px" src="http://res.cloudinary.com/ducdzjqsh/image/upload/v1526560093/HUILE_square.jpg">
+        <mj-image padding-bottom="30px" src="http://res.cloudinary.com/ducdzjqsh/image/upload/v1526560093/HUILE_square.jpg" href="http://urbanart-paris.fr/agenda/jonone-in-the-box/">
         </mj-image>
         <mj-text padding="0">
           <h3>JONONE – « IN THE BOX »</h3>
@@ -253,7 +259,7 @@
         <mj-button width="150px" align="center" background-color="#000" color="white" border-radius="40px" padding="0" href="http://urbanart-paris.fr/agenda/jonone-in-the-box/" font-size="12px" font-weight="bold">VOIR PLUS</mj-button> 
       </mj-column>
       <mj-column padding="0px 0px 50px 0px">
-        <mj-image padding-bottom="30px" src="http://res.cloudinary.com/ducdzjqsh/image/upload/v1526560093/PICT2.jpg">
+        <mj-image padding-bottom="30px" src="http://res.cloudinary.com/ducdzjqsh/image/upload/v1526560093/PICT2.jpg" href="http://urbanart-paris.fr/agenda/quentin-dmr-enter-exit/">
         </mj-image>
         <mj-text padding="0">
           <h3>QUENTIN DMR – « ENTER/EXIT »</h3>
@@ -263,12 +269,12 @@
       </mj-column>
     </mj-section>
 
-    <!-- VU -->
+    <!-- Section "VU" -->
       
     <mj-section padding="0" background-color="#212a34">
       
       <mj-column vertical-align="middle">
-        <mj-image src="http://res.cloudinary.com/ducdzjqsh/image/upload/v1526978979/pantonio_graph.jpg" padding="0">
+        <mj-image src="http://res.cloudinary.com/ducdzjqsh/image/upload/v1526978979/pantonio_graph.jpg" padding="0" href="https://goo.gl/maps/YWj3wGJMJ1K2">
         </mj-image>
       </mj-column>
       
@@ -299,6 +305,8 @@ Une oeuvre de l’artiste PANTÓNIO.
     <!-- Footer -->
         
     <mj-section background-url="http://res.cloudinary.com/ducdzjqsh/image/upload/v1526387560/Fichier_1-8.png" padding="40px 0 40px 0" background-repeat="no-repeat" background-size="cover">
+      <mj-text color="rgba(255,255,255,0)">
+      <a class="hidden" href="http://urbanart-paris.fr/">Urban Art Paris</a></mj-text>
 
     </mj-section>
         
@@ -313,7 +321,7 @@ FESTIVAL LABEL VALETTE !</h3>
         <mj-button width="150px" align="center" background-color="#000" border-radius="40px" padding="0" href="http://urbanart-paris.fr/agenda/quentin-dmr-enter-exit/" font-size="12px" font-weight="bold">BILLETTERIE</mj-button>       
       </mj-column>
       <mj-column vertical-align="middle" padding="0px 10px 50px 10px">
-        <mj-image src="http://res.cloudinary.com/ducdzjqsh/image/upload/v1526388051/LBV5.2-BANN.jpg" padding="0">
+        <mj-image src="http://res.cloudinary.com/ducdzjqsh/image/upload/v1526388051/LBV5.2-BANN.jpg" padding="0" href="http://urbanart-paris.fr/agenda/quentin-dmr-enter-exit/">
         </mj-image>
       </mj-column>
     </mj-section>
@@ -326,7 +334,7 @@ FESTIVAL LABEL VALETTE !</h3>
         </mj-column>
     </mj-section>
     
-    <mj-section background-color="#212a34" text-align="center" padding="0 0 5px 0">
+    <mj-section background-color="#212a34" text-align="center" padding="0 0 30px 0">
       <mj-group>
         <mj-column padding="0">
         </mj-column>
