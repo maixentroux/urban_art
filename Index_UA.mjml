@@ -268,7 +268,7 @@
       
    <!-- Expo section -->
       
-    <mj-section padding="50px 0px 40px 0px">
+    <mj-section padding="50px 0px 50px 0px">
         <mj-column>
           <mj-raw>
             <div class="expo_container">
@@ -279,8 +279,9 @@
    </mj-section>       
             
     <mj-section padding="0">
-      <mj-column padding="0px 0px 70px 0px">
-        <mj-image padding-bottom="30px" src="http://res.cloudinary.com/ducdzjqsh/image/upload/v1526560093/HUILE_square.jpg" href="http://urbanart-paris.fr/agenda/jonone-in-the-box/">
+      
+      <mj-column padding="0px 0px 70px 0px" width="45%">
+        <mj-image padding="0 0 30px 0" src="http://res.cloudinary.com/ducdzjqsh/image/upload/v1526560093/HUILE_square.jpg" href="http://urbanart-paris.fr/agenda/jonone-in-the-box/">
         </mj-image>
         <mj-text padding="0">
           <h3>JONONE <br> « IN THE BOX »</h3>
@@ -288,8 +289,11 @@
         </mj-text>
         <mj-button width="150px" align="center" background-color="#000" color="white" border-radius="40px" padding="0" href="http://urbanart-paris.fr/agenda/jonone-in-the-box/" font-size="12px" font-weight="bold">VOIR PLUS</mj-button> 
       </mj-column>
-      <mj-column padding="0px 0px 50px 0px">
-        <mj-image padding-bottom="30px" src="http://res.cloudinary.com/ducdzjqsh/image/upload/v1526560093/PICT2.jpg" href="http://urbanart-paris.fr/agenda/quentin-dmr-enter-exit/">
+        
+        <mj-column width="10%"></mj-column>
+        
+      <mj-column padding="0px 0px 50px 0px" width="45%">
+        <mj-image padding="0 0 30px 0"  src="http://res.cloudinary.com/ducdzjqsh/image/upload/v1526560093/PICT2.jpg" href="http://urbanart-paris.fr/agenda/quentin-dmr-enter-exit/">
         </mj-image>
         <mj-text padding="0">
           <h3>QUENTIN DMR <br> « ENTER/EXIT »</h3>
@@ -297,6 +301,7 @@
         </mj-text>
         <mj-button width="150px" align="center" background-color="#000" color="white" border-radius="40px" padding="0" href="http://urbanart-paris.fr/agenda/quentin-dmr-enter-exit/" font-size="12px" font-weight="bold">VOIR PLUS</mj-button> 
       </mj-column>
+        
     </mj-section>
         
         
